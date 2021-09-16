@@ -1,38 +1,41 @@
 {
-  "name": "toogoodtogo-watcher",
-  "version": "3.6.0",
-  "description": "Node.js cli tool for monitoring your favorite TooGoodToGo businesses.",
+  "name": "backmarket-watcher",
+  "version": "1.0.0",
+  "description": "Node.js cli tool for monitoring BackMarket products.",
   "main": "index.js",
   "keywords": [
-    "TooGoodToGo",
+    "BackMarket",
     "notifications",
     "desktop",
-    "telegram"
+    "telegram",
+    "ifttt",
+    "gotify"
   ],
-  "author": "Mark Lagendijk <mark@lagendijk.nl>",
+  "author": "Youe Graillot <youe.graillot@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marklagendijk/node-toogoodtogo-watcher.git"
+    "url": "git+https://github.com/youegraillot/node-backmarket-watcher.git"
   },
   "bugs": {
-    "url": "https://github.com/marklagendijk/node-toogoodtogo-watcher/issues"
+    "url": "https://github.com/youegraillot/node-backmarket-watcher/issues"
   },
-  "homepage": "https://github.com/marklagendijk/node-toogoodtogo-watcher#readme",
+  "homepage": "https://github.com/youegraillot/node-backmarket-watcher#readme",
   "preferGlobal": true,
   "bin": {
-    "toogoodtogo-watcher": "index.js"
+    "backmarket-watcher": "index.js"
   },
   "dependencies": {
-    "conf": "^7.1.1",
+    "conf": "^10.0.3",
+    "currency.js": "^2.0.4",
     "editor": "^1.0.0",
-    "got": "^11.5.1",
-    "lodash": "^4.17.19",
-    "moment": "^2.29.1",
-    "node-notifier": "^8.0.1",
-    "rxjs": "^6.6.2",
-    "telegraf": "^3.38.0",
-    "yargs": "^15.4.1"
+    "got": "^11.8.2",
+    "jsdom": "^17.0.0",
+    "lodash": "^4.17.21",
+    "node-notifier": "^10.0.0",
+    "rxjs": "^7.3.0",
+    "telegraf": "^4.4.2",
+    "yargs": "^17.1.1"
   },
   "scripts": {
     "lint": "prettier --write . && eslint --cache --fix ."
