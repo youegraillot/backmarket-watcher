@@ -14,7 +14,7 @@ See [below for Docker usage](#docker).
 
 1. Install Node.js 8.x or higher ([Windows](https://nodejs.org/en/download/current/) | [Linux](https://github.com/nodesource/distributions#debinstall) | [OSx](https://nodejs.org/en/download/current/)).
 2. `npm install -g backmarket-watcher`
-3. `backmarket-watcher config`. Optionally enable / disable certain notifications. See [Configuring Telegram notifiations](#configuring-telegram-notifiations) for instructions on setting up the Telegram notifications.
+3. `backmarket-watcher config`. Add the products you want to watch here (paste the full product url from your local BackMarket website). Optionally enable / disable certain notifications. See [Configuring Telegram notifiations](#configuring-telegram-notifiations) for instructions on setting up the Telegram notifications.
 4. `backmarket-watcher watch`
 
 ## CLI documentation
@@ -110,3 +110,7 @@ services:
 
 1. Install the Heroku CLI and login.
 2. From your terminal, run `heroku config:set BACKMARKET_CONFIG=content`, replacing content with the content of your config.json file.
+
+## Acknowlegment
+
+This project is a fork of [node-toogoodtogo-watcher](https://github.com/marklagendijk/node-toogoodtogo-watcher)
