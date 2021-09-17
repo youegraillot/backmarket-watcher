@@ -9,3 +9,4 @@ Dockerfile
 *.sh
 LICENSE
 README.md
+*.ps1
