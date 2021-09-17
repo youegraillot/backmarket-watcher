@@ -1,4 +1,4 @@
-# node-backmarket-watcher [![GitHub license](https://img.shields.io/github/license/youegraillot/node-backmarket-watcher)](https://github.com/youegraillot/node-backmarket-watcher/blob/master/LICENSE) [![npm](https://img.shields.io/npm/v/backmarket-watcher)](https://www.npmjs.com/package/backmarket-watcher) [![Docker Pulls](https://img.shields.io/docker/pulls/youegraillot/backmarket-watcher)](https://hub.docker.com/r/youegraillot/backmarket-watcher)
+# backmarket-watcher [![GitHub license](https://img.shields.io/github/license/youegraillot/backmarket-watcher)](https://github.com/youegraillot/backmarket-watcher/blob/master/LICENSE) [![npm](https://img.shields.io/npm/v/backmarket-watcher)](https://www.npmjs.com/package/backmarket-watcher) [![Docker Pulls](https://img.shields.io/docker/pulls/youegraillot/backmarket-watcher)](https://hub.docker.com/r/youegraillot/backmarket-watcher)
 
 Node.js cli tool for monitoring BackMarket products. Notifications are shown when the price of any of the products changes. The following notification types are supported:
 
@@ -94,7 +94,7 @@ Note: the Docker image is a multiarch image. So it will also work on Raspberry P
 
 ### Docker run
 
-1. Create a directory to store the config file and copy the [config.defaults.json](https://github.com/youegraillot/node-backmarket-watcher/blob/master/config.defaults.json) into `YOUR_FOLDER/config.json`. See above for instructions on how to configure the application. Make sure that the folder has the correct permissions, e.g. run chmod -R o+rwx config/ or you might get access denied errors on the file system. The app needs read/write access on the configuration file, e.g. to store token received in it.
+1. Create a directory to store the config file and copy the [config.defaults.json](https://github.com/youegraillot/backmarket-watcher/blob/master/config.defaults.json) into `YOUR_FOLDER/config.json`. See above for instructions on how to configure the application. Make sure that the folder has the correct permissions, e.g. run chmod -R o+rwx config/ or you might get access denied errors on the file system. The app needs read/write access on the configuration file, e.g. to store token received in it.
 2. Run the following command. Example: a user `john` who stored the config in `~/docker/backmarket-watcher/config.json`:
 
 ```
@@ -113,7 +113,7 @@ You can then use "http://gotify" on this container if --name gotify is used for 
 ### Docker Compose
 
 1. Create a directory to contain all your Docker Compose things.
-2. Create a directory `backmarket-watcher` inside the created directory, and copy the [config.defaults.json](https://github.com/youegraillot/node-backmarket-watcher/blob/master/config.defaults.json) to `backmarket-watcher/config.json`. See above for instructions on how to configure the application.
+2. Create a directory `backmarket-watcher` inside the created directory, and copy the [config.defaults.json](https://github.com/youegraillot/backmarket-watcher/blob/master/config.defaults.json) to `backmarket-watcher/config.json`. See above for instructions on how to configure the application.
 3. Create a file `docker-compose.yaml`:
 
 ```yaml

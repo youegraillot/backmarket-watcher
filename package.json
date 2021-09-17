@@ -15,12 +15,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youegraillot/node-backmarket-watcher.git"
+    "url": "git+https://github.com/youegraillot/backmarket-watcher.git"
   },
   "bugs": {
-    "url": "https://github.com/youegraillot/node-backmarket-watcher/issues"
+    "url": "https://github.com/youegraillot/backmarket-watcher/issues"
   },
-  "homepage": "https://github.com/youegraillot/node-backmarket-watcher#readme",
+  "homepage": "https://github.com/youegraillot/backmarket-watcher#readme",
   "preferGlobal": true,
   "bin": {
     "backmarket-watcher": "index.js"
