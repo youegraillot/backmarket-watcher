@@ -29,7 +29,7 @@
   },
   "messageFilter": {
     "showUnchanged": false,
-    "showDecrease": false,
+    "showDecrease": true,
     "showDecreaseToZero": false,
     "showIncrease": false,
     "showIncreaseFromZero": true
