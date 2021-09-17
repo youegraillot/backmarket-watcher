@@ -17,6 +17,28 @@ See [below for Docker usage](#docker).
 3. `backmarket-watcher config`. Add the products you want to watch here (paste the full product url from your local BackMarket website). Optionally enable / disable certain notifications. See [Configuring Telegram notifiations](#configuring-telegram-notifiations) for instructions on setting up the Telegram notifications.
 4. `backmarket-watcher watch`
 
+## Configure the watch list
+
+You ca add products to the watch list by search or individually by editing the config file :
+
+```json
+"productsSearch": [
+  "https://www.backmarket.com/search?q=product&ga_search=product"
+],
+"products": [
+  "https://www.backmarket.com/first-product/123456789.html",
+  "https://www.backmarket.com/second-product/123456789.html"
+]
+```
+
+Simply navigate to your local backmarket website and paste desired urls.
+
+Note that search filter are not supported, instead use search queries :
+
+```
+brand "only this string" -NotThatOne
+```
+
 ## CLI documentation
 
 ```
