@@ -1,4 +1,9 @@
-# backmarket-watcher [![GitHub license](https://img.shields.io/github/license/youegraillot/backmarket-watcher)](https://github.com/youegraillot/backmarket-watcher/blob/master/LICENSE) [![npm](https://img.shields.io/npm/v/backmarket-watcher)](https://www.npmjs.com/package/backmarket-watcher) [![Docker Pulls](https://img.shields.io/docker/pulls/youegraillot/backmarket-watcher)](https://hub.docker.com/r/youegraillot/backmarket-watcher)
+# backmarket-watcher
+
+[![GitHub license](https://img.shields.io/github/license/youegraillot/backmarket-watcher?style=for-the-badge)](https://github.com/youegraillot/backmarket-watcher/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/youegraillot/backmarket-watcher?style=for-the-badge)](https://github.com/youegraillot/backmarket-watcher)
+[![npm downloads](https://img.shields.io/npm/dt/backmarket-watcher?label=npm%20Downloads&style=for-the-badge)](https://www.npmjs.com/package/backmarket-watcher)
+[![Docker pulls](https://img.shields.io/docker/pulls/youegraillot/backmarket-watcher?style=for-the-badge)](https://hub.docker.com/r/youegraillot/backmarket-watcher)
 
 Node.js cli tool for monitoring BackMarket products. Notifications are shown when the price of any of the products changes. The following notification types are supported:
 
@@ -14,7 +19,7 @@ See [below for Docker usage](#docker).
 
 1. Install Node.js 8.x or higher ([Windows](https://nodejs.org/en/download/current/) | [Linux](https://github.com/nodesource/distributions#debinstall) | [OSx](https://nodejs.org/en/download/current/)).
 2. `npm install -g backmarket-watcher`
-3. `backmarket-watcher config`. Add the products you want to watch here (paste the full product url from your local BackMarket website). Optionally enable / disable certain notifications. See [Configuring Telegram notifiations](#configuring-telegram-notifiations) for instructions on setting up the Telegram notifications.
+3. `backmarket-watcher config`. Add the products you want to watch here. Optionally enable / disable certain notifications. See [Configuring Telegram notifiations](#configuring-telegram-notifiations) for instructions on setting up the Telegram notifications.
 4. `backmarket-watcher watch`
 
 ## Configure the watch list
