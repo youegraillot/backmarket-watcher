@@ -1,4 +1,4 @@
-# backmarket-watcher
+# [backmarket-watcher](https://github.com/youegraillot/backmarket-watcher/)
 
 [![GitHub license](https://img.shields.io/github/license/youegraillot/backmarket-watcher?style=for-the-badge)](https://github.com/youegraillot/backmarket-watcher/blob/master/LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/youegraillot/backmarket-watcher?style=for-the-badge)](https://github.com/youegraillot/backmarket-watcher)
@@ -140,4 +140,4 @@ services:
 
 ## Acknowlegment
 
-This project is a fork of [node-toogoodtogo-watcher](https://github.com/marklagendijk/node-toogoodtogo-watcher)
+This project has been forked from [node-toogoodtogo-watcher](https://github.com/marklagendijk/node-toogoodtogo-watcher)
