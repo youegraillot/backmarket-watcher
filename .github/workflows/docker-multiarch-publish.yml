@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # https://github.com/martinbeentjes/npm-get-version-action
       - name: Get version from package.json
@@ -43,7 +43,7 @@ jobs:
       # https://github.com/docker/metadata-action
       - name: Extract metadata for Docker
         id: meta
-        uses: docker/metadata-action@v3
+        uses: docker/metadata-action@v4
         with:
           images: ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.DOCKERHUB_REPOSITORY }}
           tags: |
